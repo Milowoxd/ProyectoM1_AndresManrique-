@@ -470,8 +470,9 @@ kbd {
 
 .saved-palette__color {
     border-radius: 50%;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
 }
 
 .saved-palette__info {
@@ -503,15 +504,13 @@ kbd {
 }
 
 .saved-palette__btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.75rem;
-    border: 1px solid var(--color-border);
-    background-color: var(--color-bg);
-    color: var(--color-text);
-    border-radius: var(--radius);
-    cursor: pointer;
-    transition: var(--transition);
-    white-space: nowrap;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .saved-palette__btn:hover {
