@@ -488,10 +488,12 @@ kbd {
 }
 
 .saved-palette__codes {
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
     word-break: break-all;
-    font-family: 'Monaco', 'Courier New', monospace;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    color: var(--color-text-muted, #888);
+    max-height: 3rem;
+    overflow: hidden;
 }
 
 .saved-palette__actions {
