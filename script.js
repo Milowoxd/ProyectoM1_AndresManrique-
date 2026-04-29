@@ -382,7 +382,8 @@ function renderSavedPalettes() {
 
         const codes = document.createElement('div');
         codes.className = 'saved-palette__codes';
-        codes.textContent = palette.colors.join(', ');
+        // codes.textContent = palette.colors.join(', ');
+
 
         info.appendChild(time);
         info.appendChild(codes);

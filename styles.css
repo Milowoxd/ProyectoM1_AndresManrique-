@@ -341,14 +341,14 @@ kbd {
 
 .color-card__actions {
     display: flex;
-    gap: var(--space-xs);
-    margin-left: var(--space-sm);
+    flex-direction: column;
+    gap: 0.2rem;
 }
 
 .color-card__btn {
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
     width: 32px;
     height: 32px;
     border-radius: var(--radius);
@@ -357,8 +357,10 @@ kbd {
     align-items: center;
     justify-content: center;
     transition: var(--transition);
-    font-size: 0.875rem;
-    padding: 0;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.3rem;
+    min-width: unset;
+
 }
 
 .color-card__btn:hover {
@@ -692,8 +694,8 @@ kbd {
     }
 
     .color-card__content {
-        padding: var(--space-sm);
-        min-height: 70px;
+         padding: 0.4rem;
+         font-size: 0.65rem;
     }
 
     .color-card__code {
